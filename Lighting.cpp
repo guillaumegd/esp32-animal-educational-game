@@ -11,7 +11,7 @@ unsigned long lastBrightnessUpdate = 0;
 
 void setupLighting() {
   leds.begin();
-  leds.setBrightness(20);  // ou ta variable brightness initiale
+  leds.setBrightness(20);
   leds.clear();
   leds.show();
 }
@@ -43,8 +43,6 @@ void updateLighting(const Animal* animal) {
     lastBrightnessUpdate = now;
   }
 }
-
-
 
 void resetLighting() {
   leds.clear();

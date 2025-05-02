@@ -15,8 +15,7 @@ struct Animal {
   byte uidLength;
   const char* name;
   ColorRGB palette[3];  // Up to 3 colors
-  const char* soundFileName;
-  const char* soundFileCry;
+  const int soundDirNumber;
   const char* imageFile;
 };
 

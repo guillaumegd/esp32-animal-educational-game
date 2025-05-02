@@ -5,7 +5,7 @@
 #include <Adafruit_NeoPixel.h>
 #include "Animal.h"
 
-// On déclare ici, sans construire encore
+// Declare here, but not constructed yet
 extern Adafruit_NeoPixel leds;
 
 void setupLighting();
